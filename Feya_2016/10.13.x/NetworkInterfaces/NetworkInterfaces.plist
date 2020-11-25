@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Interfaces</key>
+	<array>
+		<dict>
+			<key>BSD Name</key>
+			<string>en0</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>0</integer>
+			<key>IOMACAddress</key>
+			<data>
+			ONVHGRXc
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GLAN@1F,6/IntelMausi/en0</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Ethernet</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en1</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>1</integer>
+			<key>IOMACAddress</key>
+			<data>
+			VIyg3UhU
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/IOResources/IOUserEthernetResource/IOUserEthernetResourceUserClient/IOUserEthernetController/en1</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Bluetooth PAN</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en2</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>2</integer>
+			<key>IOMACAddress</key>
+			<data>
+			ivStZ3HE
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/XHC@14/XHC@14000000/HS02@14200000/Mi-4c@14200000/RNDIS Communications Control@0/HoRNDIS/en2</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>Mi-4c</string>
+				<key>UserDefinedName</key>
+				<string>Mi-4c</string>
+				<key>idProduct</key>
+				<integer>65416</integer>
+				<key>idVendor</key>
+				<integer>10007</integer>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en3</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>3</integer>
+			<key>IOMACAddress</key>
+			<data>
+			6E4GOeYH
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/802.11n WLAN Adapter@14c00000/AppleUSBInterface@0/RtWlanU1827/en3</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>802.11n WLAN Adapter</string>
+				<key>UserDefinedName</key>
+				<string>802.11n WLAN Adapter</string>
+				<key>idProduct</key>
+				<integer>33144</integer>
+				<key>idVendor</key>
+				<integer>3034</integer>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en4</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>4</integer>
+			<key>IOMACAddress</key>
+			<data>
+			NsNYfNQv
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/XHC@14/XHC@14000000/HS12@14c00000/SDM660-QRD _SN:9D17D2A0@14c00000/RNDIS Communications Control@0/HoRNDIS/en4</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>SDM660-QRD _SN:9D17D2A0</string>
+				<key>UserDefinedName</key>
+				<string>SDM660-QRD _SN:9D17D2A0</string>
+				<key>idProduct</key>
+				<integer>65416</integer>
+				<key>idVendor</key>
+				<integer>10007</integer>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en5</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>5</integer>
+			<key>IOMACAddress</key>
+			<data>
+			WkaqYsQP
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/RP11@1D,2/IOPP/PXSX@0/PXSX@00000000/AppleUSB20XHCIPort@00400000/Pixel 4 XL@00400000/RNDIS Communications Control@0/HoRNDIS/en5</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>Pixel 4 XL</string>
+				<key>UserDefinedName</key>
+				<string>Pixel 4 XL</string>
+				<key>idProduct</key>
+				<integer>20196</integer>
+				<key>idVendor</key>
+				<integer>6353</integer>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>Active</key>
+			<true/>
+			<key>BSD Name</key>
+			<string>en6</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>6</integer>
+			<key>IOMACAddress</key>
+			<data>
+			HDa7MO3I
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/RP10@1D,1/IOPP/PXSX@0/AirPort_BrcmNIC/en6</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Wi-Fi</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>IEEE80211</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en7</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>7</integer>
+			<key>IOMACAddress</key>
+			<data>
+			YkTk1wQ7
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/XHC@14/XHC@14000000/HS02@14200000/SDM660-QRD _SN:9D17D2A0@14200000/RNDIS Communications Control@0/HoRNDIS/en7</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>SDM660-QRD _SN:9D17D2A0</string>
+				<key>UserDefinedName</key>
+				<string>SDM660-QRD _SN:9D17D2A0</string>
+				<key>idProduct</key>
+				<integer>65408</integer>
+				<key>idVendor</key>
+				<integer>10007</integer>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+	</array>
+	<key>Interfaces:iMac18,3</key>
+	<array>
+		<dict>
+			<key>Active</key>
+			<true/>
+			<key>BSD Name</key>
+			<string>en0</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>0</integer>
+			<key>IOMACAddress</key>
+			<data>
+			ONVHGRXc
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GLAN@1F,6/IntelMausi/en0</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Ethernet</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>Active</key>
+			<true/>
+			<key>BSD Name</key>
+			<string>en1</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>1</integer>
+			<key>IOMACAddress</key>
+			<data>
+			6E4GOeYH
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/802.11n WLAN Adapter@14800000/AppleUSBInterface@0/RtWlanU1827/en1</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>802.11n WLAN Adapter</string>
+				<key>UserDefinedName</key>
+				<string>802.11n WLAN Adapter</string>
+				<key>idProduct</key>
+				<integer>33144</integer>
+				<key>idVendor</key>
+				<integer>3034</integer>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en2</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>2</integer>
+			<key>IOMACAddress</key>
+			<data>
+			VIyg3UhU
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/IOResources/IOUserEthernetResource/IOUserEthernetResourceUserClient/IOUserEthernetController/en2</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Bluetooth PAN</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+	</array>
+	<key>Model</key>
+	<string>iMac17,1</string>
+</dict>
+</plist>
