@@ -138,12 +138,12 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AAASGQ==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>device-id</key>
 				<data>EhkAAA==</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>AAASGQ==</data>
 			</dict>
 		</dict>
 	</dict>
@@ -163,104 +163,84 @@
 	<dict>
 		<key>KextsToPatch</key>
 		<array>
-		    <dict>
-                <key>Comment</key>
-                <string>Port limit increase</string>
-                <key>Disabled</key>
-                <false/>
-                <key>Find</key>
-                <data>
-                g710////EA==
-                </data>
-                <key>InfoPlistPatch</key>
-                <false/>
-                <key>MatchOS</key>
-                <string>10.12.x</string>
-                <key>Name</key>
-                <string>com.apple.driver.usb.AppleUSBXHCI</string>
-                <key>Replace</key>
-                <data>
-                g710////Gw==
-                </data>
-            </dict>
-            <dict>
-                <key>Comment</key>
-                <string>Port limit increase (RehabMan)</string>
-                <key>Disabled</key>
-                <false/>
-                <key>Find</key>
-                <data>
-                g32IDw+DpwQAAA==
-                </data>
-                <key>InfoPlistPatch</key>
-                <false/>
-                <key>MatchOS</key>
-                <string>10.13.x</string>
-                <key>Name</key>
-                <string>com.apple.driver.usb.AppleUSBXHCI</string>
-                <key>Replace</key>
-                <data>
-                g32ID5CQkJCQkA==
-                </data>
-            </dict>
-            <dict>
-                <key>Comment</key>
-                <string>Port limit increase (PMHeart)</string>
-                <key>Disabled</key>
-                <true/>
-                <key>Find</key>
-                <data>
-                g/sPD4MDBQAA
-                </data>
-                <key>InfoPlistPatch</key>
-                <false/>
-                <key>MatchOS</key>
-                <string>10.14.0</string>
-                <key>Name</key>
-                <string>com.apple.driver.usb.AppleUSBXHCI</string>
-                <key>Replace</key>
-                <data>
-                g/sPkJCQkJCQ
-                </data>
-            </dict>
-            <dict>
-                <key>Comment</key>
-                <string>Port limit increase (Ricky)</string>
-                <key>Disabled</key>
-                <false/>
-                <key>Find</key>
-                <data>
-                g/sPD4OPBAAA
-                </data>
-                <key>InfoPlistPatch</key>
-                <false/>
-                <key>MatchOS</key>
-                <string>10.14.x</string>
-                <key>Name</key>
-                <string>com.apple.driver.usb.AppleUSBXHCI</string>
-                <key>Replace</key>
-                <data>
-                g/sPkJCQkJCQ
-                </data>
-            </dict>
-            <dict>
-                <key>Comment</key>
-                <string>External Icons Patch</string>
-                <key>Disabled</key>
-                <false/>
-                <key>Find</key>
-                <data>
-                RXh0ZXJuYWw=
-                </data>
-                <key>InfoPlistPatch</key>
-                <false/>
-                <key>Name</key>
-                <string>AppleAHCIPort</string>
-                <key>Replace</key>
-                <data>
-                SW50ZXJuYWw=
-                </data>
-            </dict>
+			<dict>
+				<key>Find</key>
+				<data>g710////EA==</data>
+				<key>Comment</key>
+				<string>Port limit increase</string>
+				<key>Disabled</key>
+				<false/>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g710////Gw==</data>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g32IDw+DpwQAAA==</data>
+				<key>Comment</key>
+				<string>Port limit increase (RehabMan)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g32ID5CQkJCQkA==</data>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g/sPD4MDBQAA</data>
+				<key>Comment</key>
+				<string>Port limit increase (PMHeart)</string>
+				<key>Disabled</key>
+				<true/>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/sPkJCQkJCQ</data>
+				<key>MatchOS</key>
+				<string>10.14.0</string>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g/sPD4OPBAAA</data>
+				<key>Comment</key>
+				<string>Port limit increase (Ricky)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/sPkJCQkJCQ</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>RXh0ZXJuYWw=</data>
+				<key>Name</key>
+				<string>AppleAHCIPort</string>
+				<key>Replace</key>
+				<data>SW50ZXJuYWw=</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>External Icons Patch</string>
+				<key>InfoPlistPatch</key>
+				<false/>
+			</dict>
 		</array>
 		<key>KernelPm</key>
 		<true/>
@@ -309,7 +289,7 @@
 		<key>ProductName</key>
 		<string>iMac17,1</string>
 		<key>SmUUID</key>
-		<string></string>
+		<string>A591B083-FE20-5417-AB90-E89473D1AD3C</string>
 		<key>Mobile</key>
 		<false/>
 		<key>BoardType</key>
@@ -317,7 +297,7 @@
 		<key>EfiVersion</key>
 		<string>175.0.0.0.0</string>
 		<key>SerialNumber</key>
-		<string></string>
+		<string>C02VL03DJ1GQ</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
@@ -327,12 +307,10 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>InjectSystemID</key>
-		<true/>
-		<key>CustomUUID</key>
-		<string>EEFEC1B3-F49E-4A40-9C2F-2CCADD700807</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
+		<key>InjectSystemID</key>
+		<true/>
 	</dict>
 </dict>
 </plist>
