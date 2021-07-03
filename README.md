@@ -33,3 +33,4 @@ Hackintosh XPS 9360(8550U + QHD) with dual boots (macOS + WIN10) via OpenCore.
 - https://github.com/the-darkvoid/XPS9360-macOS
 - https://github.com/hoanX/xps13-9360-Hackintosh
 - https://github.com/theQuert/XPS-9360-macOS
+- https://blog.skk.moe/post/hackintosh-fix-magenta-screen/
