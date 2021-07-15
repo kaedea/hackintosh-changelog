@@ -10,14 +10,17 @@
 
 ### Undervolting
 
-- Overclock, CFG, WDT & XTU enable  
-  `0x4DE` -> `00`  (Origin: `0x01`)  
-  `0x64D` -> `01`  (Origin: `0x00`)  
-  `0x64E` -> `01`  (Origin: `0x00`)  
-
-- Undervolt values:  
-  `0x653` -> `0x64` (CPU: -100 mV)  (Origin: `0x00`)  
-  `0x655` -> `01`   (Negative voltage for `0x653`)  (Origin: `0x00`)  
-  `0x85A` -> `0x1E` (GPU: -30 mV)  (Origin: `0x00`)  
-  `0x85C` -> `01`   (Negative voltage for `0x85A`)  (Origin: `0x00`)  
-  
+ - Overclock, CFG, WDT & XTU enable
+ ```BASH
+        setup_var 0x4DE 0x00     // (Origin: `0x01`)  
+        setup_var 0x64D 0x01     // (Origin: `0x00`)  
+        setup_var 0x64E 0x01     // (Origin: `0x00`)  
+ ```
+ - Undervolting values:
+ ```BASH
+        setup_var 0x653 0x64     // CPU: -100 mV  (Origin: `0x00`)  
+        setup_var 0x655 0x01     // Negative voltage for 0x653  (Origin: `0x00`)  
+        setup_var 0x85A 0x1E     // GPU: -30 mV  (Origin: `0x00`)  
+        setup_var 0x85C 0x01     // Negative voltage for 0x85A  (Origin: `0x00`)  
+ ```      
+        
