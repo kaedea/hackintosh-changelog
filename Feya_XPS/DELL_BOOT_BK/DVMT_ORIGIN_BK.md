@@ -11,9 +11,9 @@
 ### Undervolting
 
 - Overclock, CFG, WDT & XTU enable  
-  `0x4DE` -> `00`  (Origin: `0x01`)
-  `0x64D` -> `01`  (Origin: `0x00`)
-  `0x64E` -> `01`  (Origin: `0x00`)
+  `0x4DE` -> `00`  (Origin: `0x01`)  
+  `0x64D` -> `01`  (Origin: `0x00`)  
+  `0x64E` -> `01`  (Origin: `0x00`)  
 
 - Undervolt values:  
   `0x653` -> `0x64` (CPU: -100 mV)  (Origin: `0x00`)  
